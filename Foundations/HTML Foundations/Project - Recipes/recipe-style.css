@@ -56,7 +56,7 @@ footer a {
     color: white;
 }
 
-#recipe-panel {
+#recipe-panels {
     width: 60vw;
     padding: 2em;
     display: flex;
@@ -70,13 +70,11 @@ footer a {
     justify-content: space-around;
     text-align: center;
     padding: 1em;
-    background-color: rgb(0, 107, 142);
     box-sizing: border-box;
-    border-radius: 0.2em;
-
 }
 
-.recipe-panel a {
+.recipe-panel p {
+    margin: 0;
     padding: 1em;
     color: white;
     background-color: rgb(0, 107, 142);
